@@ -2,7 +2,7 @@
  * <processing-console-1-ascii-art>
  * by <Jacob Rhoads>
  * 
- * <This program is used in making code into pictures/animation>
+ * <This program is used in turning code into pictures/animation>
  * 
  */
  
@@ -32,17 +32,38 @@
 }
 
 void draw() {
-background(100, 10, 100); 
+ background(0, 0, 0); 
 for (int x=0; x<4; x++){
  for (int y=0; y<4; y++){
-   fill(255);
+  fill(255);
 rect(235*x,120*y,235,120);
 }
 }
- fill(0);
+  fill(0);
  textSize(30);
 text("Team",5,40);
-text("Wins",240,40);
-text("Losses",5,40);
-text("points",5,40);
+ text("Wins",240,40);
+  text("Losses",480,40);
+   text("points",720,40);
+text("Edmonton ",5,160);
+text("Oilers ",5,190);
+ text("Edmonton ",5,280);
+ text("Eskimos",5,310);
+  text("Calgary Flames",5,400);
+text("10",240,175);
+text("2",480,175);
+text("20",720,175);
+ text("5",240,295);
+ text("2",480,295);
+ text("10",720,295);
+  text("0",240,415);
+  text("5",480,415);
+  text("0",720,415);
+
+
+
+
+
+
+
 }
